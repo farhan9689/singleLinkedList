@@ -38,7 +38,7 @@ public class Methods {
 	 
 	 //adding node at last 
 	void addLast(int data){
-		if(start != null){
+		if(start != null){ 
 			Node n = new Node();
 			n.setData(data);
 			tail.setNext(n);

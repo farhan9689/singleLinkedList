@@ -8,15 +8,10 @@ public class MAIN {
 		
 		m.createSingleLinkedList(10);
 		m.display();
-		m.addAtIndex(1, 20);
+		m.addFirst(30);	
 		m.display();
-		m.addAtIndex(2, 30);
+		m.addFirst(50);
 		m.display();
-		m.addAtIndex(3, 50);
-		m.display();
-		m.addAtIndex(5, 60);
-		m.display();
-	
 	}
 
 }
